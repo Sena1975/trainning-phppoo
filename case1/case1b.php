@@ -1,11 +1,12 @@
 <?php
 
-#cLASSE 
+#CLASSE 
 require 'produto.php';
 
 $p1 = new Produto();
 #$p1->nome = "aaaa"; // erro
-$p1->setNome("aaaa");
+$p1->setNome("Iphone");
+
 
 //var_dump($p1->nome); // erro
 var_dump($p1->getNome());
