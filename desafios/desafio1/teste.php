@@ -9,7 +9,7 @@ $aluno->setIdade(4);
 
 echo $aluno->getNome(), " foi ", $aluno->getAprovacao() . PHP_EOL;
 
-$alunoUniversitario = new AlunoUniversitario([5,1,4,6,7]);
+$alunoUniversitario = new AlunoUniversitario([5,5,5,1,10]);
 $alunoUniversitario->setNome("Zé Trovão");
 $alunoUniversitario->setIdade(8);
 echo $alunoUniversitario->getNome(), " foi ", $alunoUniversitario->getAprovacao();
