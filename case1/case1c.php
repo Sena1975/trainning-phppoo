@@ -13,6 +13,7 @@ $p1->setFabricante($f1);
 
 echo "Fabricante (1): ", $p1->getFabricante()->getNome() . PHP_EOL;
 
+
 $f2 = $p1->getFabricante();
 $f2->setNome("Outro");
 echo "Fabricante (2): ", $p1->getFabricante()->getNome() . PHP_EOL;
