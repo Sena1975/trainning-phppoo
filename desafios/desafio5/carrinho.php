@@ -2,9 +2,9 @@
 require 'produto.php';
 
 class Carrinho{
+    private $produtos;
     private $totalItens;
     private $precoTotal;
-    private $produtos;
 
     public function __construct(){
         $this->produtos = [];
@@ -18,7 +18,7 @@ class Carrinho{
     }
 
     public function exibirTotaisTela(){
-        echo "Total de itens {$this->totalItens}, valor total R$ {$this->precoTotal}";
+        echo "Total de itens {$this->totalItens}, valor total R$ {$this->precoTotal},";
     }
 }
 
