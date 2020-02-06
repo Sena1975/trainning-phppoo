@@ -6,7 +6,7 @@ require 'usuarioRepository.php';
 use Entity\Usuario;
 use Repository\UsuarioRepository;
 
-$usuario = new Usuario("Diego", "Santos", "diegosr.trainning@gmail.com");
+$usuario = new Usuario("HENRIQUE", "SENA", "henrique_sena@gmail.com");
 $usuarioRepository = new UsuarioRepository();
 
 try {
